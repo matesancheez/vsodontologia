@@ -1,0 +1,194 @@
+/*Variables*/
+.iconImg {
+  width: 70px;
+}
+
+.iconBorder {
+  width: 80px;
+  border: solid #000 3px;
+  border-radius: 100%;
+}
+
+.contactImg {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.topText {
+  position: relative;
+  top: -70vh;
+  width: 80vw;
+}
+
+.btnCenter {
+  margin: 1vh 0vw 1vh 45vw;
+}
+.btnCenter a {
+  width: 10vw;
+}
+
+.box {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  padding: 2vh;
+  margin: 5vh 2vw;
+}
+
+.map {
+  width: 100%;
+}
+
+.title2 {
+  position: relative;
+  top: -10vh;
+}
+
+/*Contact form style*/
+.contact_form {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: fit-content;
+  border: solid #000 1px;
+  border-radius: 10px;
+  position: absolute;
+}
+.contact_form form label {
+  color: #fff;
+}
+.contact_form form div {
+  margin-top: 2rem;
+}
+.contact_form form div input {
+  display: block;
+  margin: 1.5vh 0vw 1.5vh 0vw;
+  padding: 0.3rem;
+  border-radius: 10px;
+  border-style: none;
+}
+.contact_form form div textarea {
+  display: block;
+  margin: 1.5vh 0vw 1.5vh 0vw;
+  border-radius: 10px;
+  border-style: none;
+}
+.contact_form form button {
+  padding: 0.5rem 2rem;
+  margin: 2vh 0vw 0vh 5vw;
+}
+
+/*Contact Form*/
+/*Breakpoints*/
+@media (min-width: 800px) {
+  .contact_form {
+    padding: 1rem 1.2rem;
+    top: 31vh;
+    left: 40vw;
+  }
+}
+@media (max-width: 800px) {
+  .contact_form {
+    padding: 1rem 1.2rem;
+    top: 50vh;
+    left: 30vw;
+  }
+}
+@media (max-width: 450px) {
+  .contact_form {
+    padding: 1rem 1.2rem;
+    top: 50vh;
+    left: 10vw;
+  }
+}
+@media (max-width: 320px) {
+  .contact_form {
+    top: 50vh;
+    left: 2vw;
+  }
+}
+/*Image resize*/
+.bg_img {
+  width: 100%;
+  height: 110vh;
+  object-fit: cover;
+}
+
+/*Contact Form end*/
+.gradiente1 {
+  background: linear-gradient(90deg, #ADA7FF, #e4c8fd);
+}
+
+.gradiente2 {
+  background: linear-gradient(90deg, #e4c8fd, #ADA7FF);
+}
+
+.gradiente3 {
+  background: linear-gradient(90deg, #0dc6bd, #1ba7b9);
+}
+
+.gradiente4 {
+  background: linear-gradient(90deg, #1ba7b9, #0dc6bd);
+}
+
+.tabla {
+  margin-top: 20vh;
+}
+.tabla table {
+  margin-left: 17vw;
+  margin-top: 10vh;
+  font-size: 1.5rem;
+  width: 50vw;
+  height: auto;
+}
+.tabla table tr {
+  border: black solid 0.5px;
+}
+.tabla table tr th {
+  padding: 2vh 2vw;
+  border-right: black solid 0.5px;
+}
+.tabla table tr td {
+  padding: 2vh 2vw;
+  border-right: black solid 0.5px;
+}
+
+@media screen and (max-width: 800px) {
+  .tabla table {
+    margin: 0;
+    font-size: 0.9rem;
+    width: 90vw;
+    height: auto;
+  }
+  .tabla table tr {
+    border: black solid 0.5px;
+  }
+  .tabla table tr th {
+    padding: 1vh 1vw;
+    border-right: black solid 0.5px;
+  }
+  .tabla table tr td {
+    padding: 1vh 1vw;
+    border-right: black solid 0.5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tabla table {
+    margin: 0;
+    font-size: 0.9rem;
+    width: 90vw;
+    height: auto;
+  }
+  .tabla table tr {
+    border: black solid 0.5px;
+  }
+  .tabla table tr th {
+    padding: 1vh 1vw;
+    border-right: black solid 0.5px;
+  }
+  .tabla table tr td {
+    padding: 1vh 1vw;
+    border-right: black solid 0.5px;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
