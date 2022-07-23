@@ -31,9 +31,7 @@ $xxlarge: 2560px;
 
 .btnCenter{
     margin: 1vh 0vw 1vh 45vw;
-    a{
-        width: 10vw;
-    }
+    
 }
 
 
@@ -69,14 +67,12 @@ $xxlarge: 2560px;
                 margin-top: 2rem;
                 input{
                     display: block;
-                    margin: 1.5vh 0vw 1.5vh 0vw;
                     padding: 0.3rem;
                     border-radius: 10px;
                     border-style: none;
                 }
                 textarea{
                     display: block;
-                    margin: 1.5vh 0vw 1.5vh 0vw;
                     border-radius: 10px;
                     border-style: none;
                 }
@@ -120,7 +116,7 @@ $xxlarge: 2560px;
 @media (max-width: $xs){
     .contact_form{
         top: 50vh;
-        left: 2vw;
+        left: 5vw;
     }
 }
 
