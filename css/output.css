@@ -58,12 +58,14 @@
 }
 .contact_form form div input {
   display: block;
+  margin: 1.5vh 0vw 1.5vh 0vw;
   padding: 0.3rem;
   border-radius: 10px;
   border-style: none;
 }
 .contact_form form div textarea {
   display: block;
+  margin: 1.5vh 0vw 1.5vh 0vw;
   border-radius: 10px;
   border-style: none;
 }
@@ -84,21 +86,21 @@
 @media (max-width: 800px) {
   .contact_form {
     padding: 1rem 1.2rem;
-    top: 50vh;
-    left: 30vw;
+    top: 45vh;
+    left: 35vw;
   }
 }
 @media (max-width: 450px) {
   .contact_form {
     padding: 1rem 1.2rem;
-    top: 50vh;
-    left: 10vw;
+    top: 45vh;
+    left: 15vw;
   }
 }
 @media (max-width: 320px) {
   .contact_form {
-    top: 50vh;
-    left: 5vw;
+    top: 45vh;
+    left: 8vw;
   }
 }
 /*Image resize*/
